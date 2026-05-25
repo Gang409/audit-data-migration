@@ -92,7 +92,6 @@ audit-data-migration/
 │   └── 02_insert_dirty_data.sql  # 脏数据 (3套系统 + 科目映射)
 ├── images/
 │   └── (成果截图)
-├── 学习总结.docx                  # 完整学习笔记 (含面试10问)
 └── README.md
 ```
 
@@ -106,7 +105,7 @@ docker run -d --name oracle-xe -p 1521:1521 -e ORACLE_PASSWORD=test123 gvenzl/or
 Host: localhost | Port: 1521 | SID: XE | User: system | Password: test123
 ```
 
-## 面试相关技能清单
+## 涉及技能
 
 - Oracle PL/SQL 数据清洗（TO_DATE / TO_NUMBER / REGEXP_LIKE / REPLACE / TRIM）
 - 多源异构数据标准化（不同系统的科目编码体系、日期格式、方向表示）
